@@ -1,0 +1,18 @@
+@import '../../themes/variables';
+
+a {
+    color : #{$sc_text_color};
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:visited {
+        color : #{$sc_text_color};
+    }
+}
+
+.active {
+    color : #{$ac_text_color}!important;
+}
