@@ -3,6 +3,7 @@
 a {
     color : #{$sc_text_color};
     text-decoration: none;
+    font-size: #{$text_size};
 
     &:hover {
         opacity: 0.8;

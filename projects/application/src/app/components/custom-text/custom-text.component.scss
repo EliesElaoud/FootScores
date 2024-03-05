@@ -1,0 +1,6 @@
+@import '../../themes/variables';
+
+.text {
+    color: #{$pr_text_color};
+    font-size: #{$text_size};
+}
