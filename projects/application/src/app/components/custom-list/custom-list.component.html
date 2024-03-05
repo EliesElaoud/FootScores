@@ -1,1 +1,5 @@
-<p>custom-list works!</p>
+<ul class="list-container">
+    @for (item of list; track $index) {
+        <li class="list-element" (click)="item.onClick()">{{ item.text }}</li>
+    }
+</ul>

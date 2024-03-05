@@ -1,1 +1,26 @@
-<p>ranking works!</p>
+<div class="page-container">
+    <app-custom-title>Classements</app-custom-title>
+    
+    @if (!isLoading) {
+
+        @switch (navigation) {
+            @case ('leagues') {
+                <div class="leagues-list">
+                    <app-custom-list [list]="leaguesList" />
+                </div>
+            }
+
+            @case ('datas') {
+                <div class="datas">
+                    <app-custom-button [onClick]="goBack">Retour</app-custom-button>
+                    <app-custom-list [list]="teamsList" />
+                </div>
+            }
+        }
+            
+    } @else {
+        <div class="loader-container">
+            <app-custom-loader />
+        </div>
+    }
+</div>

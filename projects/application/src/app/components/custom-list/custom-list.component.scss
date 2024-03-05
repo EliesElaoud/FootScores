@@ -1,0 +1,17 @@
+@import '../../themes/variables';
+
+.list-container {
+
+    list-style: none;
+
+    .list-element {
+        cursor: pointer;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #{$list_background};
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

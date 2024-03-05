@@ -21,7 +21,6 @@ export class CustomSideMenuComponent {
       filter((event): event is NavigationEnd => event instanceof NavigationEnd)
       ).subscribe((event: NavigationEnd) => {
         this.activeScreen = event.url;
-        console.log(this.activeScreen)
       });
   }
 }

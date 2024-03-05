@@ -1,0 +1,13 @@
+@import '../../themes/variables';
+
+.button {
+    padding : 20px;
+    background-color: #{$btn_background};
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

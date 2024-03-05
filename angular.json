@@ -30,6 +30,7 @@
               "projects/application/src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "projects/application/src/styles.scss",
               "projects/application/src/app/themes/_variables.scss"
             ],
@@ -91,6 +92,7 @@
               "projects/application/src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "projects/application/src/styles.scss"
             ],
             "scripts": []
